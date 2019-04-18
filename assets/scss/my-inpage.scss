@@ -1,0 +1,300 @@
+#inpage {
+	// all inpage style
+
+	.footer-block-Blue {
+		margin-top: 0;
+	}
+
+	.inner-banner {
+		display: flex;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 250px;
+
+		.banner-title {
+			align-self: center;
+		}
+
+		.inner-img {
+			// transform: translateY(-40px);
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+
+		.location-path {
+			position: absolute;
+		}
+
+		.breadcrumb {
+			background: transparent;
+
+			.breadcrumb-item a {
+				color: #ffc201;
+			}
+
+			.active {
+				color: #fff;
+			}
+
+			:before {
+				color: #ffc201;
+			}
+
+		}
+
+	}
+
+	.parallax-window {
+		min-height: 400px;
+		background: transparent;
+	}
+
+	.page-content {
+		color: #373737;
+	}
+
+	.ol-color {
+		color: #ffc201;
+
+		span {
+			color: #787878;
+		}
+
+	}
+
+	// fontawesome file color
+
+
+	.list-download {
+		a, a:hover {
+			color: #787878;
+			text-decoration: none;
+		}
+
+	}
+
+	.fa-word-color {
+		color: #2f5899;
+	}
+
+	.fa-excel-color {
+		color: #247246;
+	}
+
+	.fa-pdf-color {
+		color: #d52300;
+	}
+
+	.fa-file-color {
+		color: #17264a;
+	}
+
+	.fa-powerpoint-color {
+		color: #cb4a32;
+	}
+
+	// fontawesome file color END
+
+
+
+	.carousel-item-style {
+		height: 150px;
+		background: tomato;
+	}
+
+	.hero {
+		padding: 20px;
+	}
+
+	.footer-block-Blue {
+		padding: 50px 0;
+		overflow: hidden;
+
+		.blue-light-color {
+			font-weight: normal;
+		}
+
+	}
+
+}
+
+//inpage style END
+
+
+
+.left-navigation {
+	.level-2 {
+		color: #373737;
+		font-weight: 500;
+	}
+
+	.level-2:hover {
+		color: #fff;
+	}
+
+	.list-group-item.active {
+		border: none;
+		color: black;
+	}
+
+	a:hover {
+		text-decoration: none;
+		background-color: #ffc201;
+		color: #fff;
+	}
+
+	.list-group-item {
+		margin-bottom: 2px;
+		border: none;
+		background-color: #f8f8f8;
+	}
+
+	.list-group-item:hover {
+		background-color: #ffc201;
+	}
+
+}
+
+
+
+.left-nav {
+	display: flex;
+	flex-direction: column;
+
+	.level {
+		width: 100%;
+		height: 60px;
+		padding: 20px;
+		background-color: #f8f8f8;
+		margin-bottom: 2px;
+		color: #373737;
+		font-weight: bold;
+
+		@include media-breakpoint-down(sm) {
+			height: 40px;
+			padding: 8px 10px;
+		}
+
+	}
+
+	.level:hover, .active {
+		background-color: #ffc201;
+		color: #fff;
+		text-decoration: none;
+	}
+
+}
+
+.modal-body {
+	p {
+		color: #000;
+	}
+
+}
+
+
+
+
+
+
+
+.offer-area{
+	background-image: url("../images/bg_serv.jpg");
+	background-size: cover;
+	object-fit: cover;
+	height: 100%;
+	padding: 50px;
+	color: #fff;
+		h1{
+			color: #fff;
+		}
+
+		i{
+			color: #04ded0;
+			font-size: 60px;
+			margin-bottom: 20px;
+		}
+
+		.icon-offer{
+			text-align: center;
+			@include media-breakpoint-down(sm) {
+				margin-bottom: 30px;
+			}
+			a{
+				color: #fff;
+				font-weight: bold;
+			}
+		}
+
+	.icon-offer-block{
+		display: flex;
+		justify-content: space-between;
+			@include media-breakpoint-down(sm) {
+				justify-content: center;
+				flex-direction: column;
+			}
+	}
+
+	.content-offer{
+		text-align: center;
+	}
+
+
+}
+
+.team-block{
+	background-color: #f8f8f8;
+	padding: 50px 0;
+	
+	.card{
+		border:none;
+	}
+
+	.team-title{
+		text-align: center;
+		p{
+			color: #898989;
+		}
+	}
+	h1{
+		color: #17264a;
+		font-weight: bold;
+	}
+
+	.card-body{
+		.card-title{
+			color: #17264a;
+		    margin-bottom: 0.30rem;
+		}
+		.card-text{
+			color: #cacaca;
+		}
+		i{
+			font-size: 30px;
+		}
+	}
+}
+
+
+
+.accordion-block{
+	.btn-link{
+		color: #fff;
+		border:none;
+		font-weight: bold;
+		padding: 20px;
+	}
+	.card-header{
+		background-color: #ffc107; 
+		color: #17264a;
+	}
+	.card-body{
+		background-color: #fff;
+		color: #17264a;
+	}
+}
+
+
