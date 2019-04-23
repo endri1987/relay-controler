@@ -2,6 +2,10 @@
 @import "costum-variables";
 @import "variables";
 @import "mixins";
+
+@import "mixins/breakpoints";
+@import "mixins/grid-framework";
+@import "mixins/grid";
 @import "root";
 @import "reboot";
 @import "type";
@@ -36,13 +40,6 @@
 @import "spinners";
 @import "utilities";
 @import "print";
-@import "my-style";
-@import "my-inpage";
-@import "relay";
-
-@import "mixins/breakpoints";
-@import "mixins/grid-framework";
-@import "mixins/grid";
 
 @import "grid";
 @import "utilities/display";
@@ -50,3 +47,6 @@
 @import "utilities/spacing";
 
 
+@import "my-style";
+@import "my-inpage";
+@import "relay";
